@@ -1,0 +1,27 @@
+Odai Abdalrazek : 207185265
+
+Abdalla Sleman  : 206722019
+
+
+How to run :
+go to the steps folder in the CMD and then write :
+
+    - mvn package&&compile
+
+then upload the jar file to AWS in the S3
+after that run HadoopRunner in your local computer with the right credentials
+
+*******************************************************
+
+in the assignment we use techniques of duplicating information and reversing order to compute the probabilities. it take three steps :
+
+    1. using the techinque to order the trigrams , bigrams and unigram in a way that help us computing the probabilities
+    2. comuting the probabilities for each trigram
+    3. sorting the trigrams using the Comperator
+
+the output will be in this link :
+
+    s3://emrodaiar/output/Step3Output2022-02-27T00-28-48.395/
+
+
+
