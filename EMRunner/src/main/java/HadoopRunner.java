@@ -11,10 +11,7 @@ import java.time.LocalDateTime;
 public class HadoopRunner {
     public static void main(String[] args) {
         AWSCredentials credentials = new BasicSessionCredentials
-                ("ASIAZKQLNCOGRQL47IX5",
-                        "9SXYtDyQ4vkfLuvcws1biHsJp9hA/V/vU6R853OT",
-                        "FwoGZXIvYXdzEHwaDALhh0339FAKxEkqhiLHAfpiBGxJWqQXRzHPx6MH5Kky0SkUz7qW7W0mYeY7AR2BRdPGizJ+BjinyAhceBEegF1wHwynBf1Imks5UJYULNY5JWal5QCpnZHVhaeC4q7ROUtXtBP35XTJ3n5bJ1MXIAwtzzdriTez6yXS3q6sRNiHbSx2AZyGbgn/PEEauAxu8IlgZKcN3M6xcxU/kf10/z/HZddXzgMVr/kk7kGHe7y+syzQdoZbOoTdcwJU/++wcqEuxnFmoqUN59EYFVkYflA/qJFZqqoo7+LpkAYyLfQDPd7KL7wPfZhvaqjZ3qqd+8QXR7ZjNloomWwFCe3V6OulE6JzK/YUDesRFw=="
-                );
+                ( "YOUR CREDENTIALS" );
         final AmazonElasticMapReduce emr = AmazonElasticMapReduceClient.builder()
                 .withRegion(Regions.US_EAST_1)
                 .withCredentials(new AWSStaticCredentialsProvider(credentials))
